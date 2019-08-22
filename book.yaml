@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: application1
   tasks:
    - name: copying file
      copy:
