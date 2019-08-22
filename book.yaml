@@ -1,8 +1,10 @@
----
-- hosts: application1
+--- 
+- 
+  hosts: application1
   remote_user: root
-  tasks:
-   - name: copying file
-     copy:
-       src: index.html
-       dest: /var/www/html/index.html
+  tasks: 
+    - 
+      copy: 
+        dest: /var/www/html/index.html
+        src: index.html
+      name: "copying file"
