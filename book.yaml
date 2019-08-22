@@ -1,0 +1,7 @@
+---
+- hosts: web
+  tasks:
+   - name: copying file
+     copy:
+       src: index.html
+       dest: /var/www/html/index.html
